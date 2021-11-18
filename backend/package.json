@@ -1,5 +1,9 @@
 {
   "name": "PartsUnlimited",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "start": "rails s",
+    "postinstall": "bundle"
+  }
 }
